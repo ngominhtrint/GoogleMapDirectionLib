@@ -20,5 +20,4 @@ public struct RequestResult {
   public static let OVER_QUERY_LIMIT = "OVER_QUERY_LIMIT"
   public static let REQUEST_DENIED = "REQUEST_DENIED"
   public static let UNKNOWN_ERROR = "UNKNOWN_ERROR"
-  
 }

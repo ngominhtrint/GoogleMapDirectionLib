@@ -14,5 +14,4 @@ public struct TransportMode {
   public static let WALKING = "walking"
   public static let BICYCLING = "bicycling"
   public static let TRANSIT = "transit"
-  
 }

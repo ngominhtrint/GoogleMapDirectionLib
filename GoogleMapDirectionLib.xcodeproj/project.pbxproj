@@ -175,8 +175,8 @@
 		EB548ED6246B9D47005B4267 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				EB548ED7246B9D66005B4267 /* DirectionService.swift */,
 				EB548ED9246B9E40005B4267 /* DirectionConnection.swift */,
+				EB548ED7246B9D66005B4267 /* DirectionService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -184,10 +184,10 @@
 		EB548EDB246BAE23005B4267 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				EB548EDC246BAEA2005B4267 /* DirectionRequestParam.swift */,
-				EB2A4A26246BB60100BF4FAA /* DirectionRequest.swift */,
 				EB2A4A2A246BC3ED00BF4FAA /* DirectionDestinationRequest.swift */,
 				EB2A4A2C246BD05300BF4FAA /* DirectionOriginRequest.swift */,
+				EB2A4A26246BB60100BF4FAA /* DirectionRequest.swift */,
+				EB548EDC246BAEA2005B4267 /* DirectionRequestParam.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -215,15 +215,15 @@
 		EB724E25246A4B550093919A /* GoogleMapDirectionLib */ = {
 			isa = PBXGroup;
 			children = (
-				EB9FA296246C03D2008C23CA /* Util */,
-				EB548EDB246BAE23005B4267 /* Request */,
-				EB548ED6246B9D47005B4267 /* Network */,
 				EB724E3D246A4BAF0093919A /* Constant */,
 				EB4224BF246ACA9E0009439B /* Model */,
-				EB724E26246A4B550093919A /* GoogleMapDirectionLib.h */,
-				EB724E27246A4B550093919A /* Info.plist */,
+				EB548ED6246B9D47005B4267 /* Network */,
+				EB548EDB246BAE23005B4267 /* Request */,
+				EB9FA296246C03D2008C23CA /* Util */,
 				EB548ED4246B9B56005B4267 /* DirectionCallback.swift */,
 				EB2A4A2E246BD3C400BF4FAA /* GoogleDirection.swift */,
+				EB724E26246A4B550093919A /* GoogleMapDirectionLib.h */,
+				EB724E27246A4B550093919A /* Info.plist */,
 			);
 			path = GoogleMapDirectionLib;
 			sourceTree = "<group>";

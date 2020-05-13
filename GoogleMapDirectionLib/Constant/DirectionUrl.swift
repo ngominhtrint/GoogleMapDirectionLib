@@ -10,8 +10,6 @@ import Foundation
 
 public struct DirectionUrl {
   
-  public static let SCHEME = "https"
-  
   public static let MAP_API_URL = "https://maps.googleapis.com"
   
   public static let DIRECTION_API_URL = "/maps/api/directions/json"

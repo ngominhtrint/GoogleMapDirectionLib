@@ -15,5 +15,4 @@ public struct TransitMode {
   public static let TRAIN = "train"
   public static let TRAM = "tram"
   public static let RAIL = "rail"
-  
 }

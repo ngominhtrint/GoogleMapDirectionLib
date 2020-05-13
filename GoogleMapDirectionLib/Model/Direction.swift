@@ -37,5 +37,3 @@ fileprivate struct DirectionKey {
   static let status = "status"
   static let errorMessage = "error_message"
 }
-
-

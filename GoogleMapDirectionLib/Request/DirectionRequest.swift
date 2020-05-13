@@ -16,7 +16,10 @@ public struct DirectionRequest {
   private let disposeBag = DisposeBag()
   private var param: DirectionRequestParam?
   
-  init(apiKey: String, origin: CLLocationCoordinate2D, destination: CLLocationCoordinate2D, waypoints: [CLLocationCoordinate2D]) {
+  init(apiKey: String,
+       origin: CLLocationCoordinate2D,
+       destination: CLLocationCoordinate2D,
+       waypoints: [CLLocationCoordinate2D]) {
     param = DirectionRequestParam()
       .setApiKey(apiKey: apiKey)
       .setOrigin(origin: origin)
