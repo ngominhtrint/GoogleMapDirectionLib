@@ -45,6 +45,7 @@
 		EB724E5D246A578C0093919A /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E5C246A578C0093919A /* Unit.swift */; };
 		EB724E5F246A58870093919A /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E5E246A58870093919A /* VehicleType.swift */; };
 		EB9FA298246C03E6008C23CA /* DirectionConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA297246C03E6008C23CA /* DirectionConverter.swift */; };
+		EBC88DF8246C368E0094ABCF /* GoogleMapDirectionLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB724E23246A4B550093919A /* GoogleMapDirectionLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC88DF8246C368E0094ABCF /* GoogleMapDirectionLib.framework in Frameworks */,
 				2F8DB473F2AA7B2F48A286DC /* Pods_GoogleMapDirectionLibTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
