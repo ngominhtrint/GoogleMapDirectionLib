@@ -33,7 +33,6 @@
 		EB548ED8246B9D66005B4267 /* DirectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ED7246B9D66005B4267 /* DirectionService.swift */; };
 		EB548EDA246B9E40005B4267 /* DirectionConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ED9246B9E40005B4267 /* DirectionConnection.swift */; };
 		EB548EDD246BAEA2005B4267 /* DirectionRequestParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EDC246BAEA2005B4267 /* DirectionRequestParam.swift */; };
-		EB724E2D246A4B550093919A /* GoogleMapDirectionLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB724E23246A4B550093919A /* GoogleMapDirectionLib.framework */; };
 		EB724E32246A4B550093919A /* GoogleMapDirectionLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E31246A4B550093919A /* GoogleMapDirectionLibTests.swift */; };
 		EB724E34246A4B550093919A /* GoogleMapDirectionLib.h in Headers */ = {isa = PBXBuildFile; fileRef = EB724E26246A4B550093919A /* GoogleMapDirectionLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB724E3F246A4BD90093919A /* AvoidType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E3E246A4BD90093919A /* AvoidType.swift */; };
@@ -46,6 +45,7 @@
 		EB724E5D246A578C0093919A /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E5C246A578C0093919A /* Unit.swift */; };
 		EB724E5F246A58870093919A /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E5E246A58870093919A /* VehicleType.swift */; };
 		EB9FA298246C03E6008C23CA /* DirectionConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA297246C03E6008C23CA /* DirectionConverter.swift */; };
+		EBC88DF7246C32490094ABCF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB724E27246A4B550093919A /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,7 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB724E2D246A4B550093919A /* GoogleMapDirectionLib.framework in Frameworks */,
 				2F8DB473F2AA7B2F48A286DC /* Pods_GoogleMapDirectionLibTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC88DF7246C32490094ABCF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
