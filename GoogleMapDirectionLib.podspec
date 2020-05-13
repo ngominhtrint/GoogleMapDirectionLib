@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GoogleMapDirectionLib"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "GoogleMapDirectionLib is a wrapped Direction Api of Google Map for easier to use."
 
   # This description is used to generate tags and improve search results.
