@@ -1,0 +1,6 @@
+framework module Pods_GoogleMapDirectionLibTests {
+  umbrella header "Pods-GoogleMapDirectionLibTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

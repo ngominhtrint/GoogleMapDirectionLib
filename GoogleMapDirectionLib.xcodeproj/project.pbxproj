@@ -7,9 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F8DB473F2AA7B2F48A286DC /* Pods_GoogleMapDirectionLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD46148CF8F3502C3AFD9704 /* Pods_GoogleMapDirectionLibTests.framework */; };
+		EB2A4A27246BB60100BF4FAA /* DirectionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2A4A26246BB60100BF4FAA /* DirectionRequest.swift */; };
+		EB2A4A2B246BC3ED00BF4FAA /* DirectionDestinationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2A4A2A246BC3ED00BF4FAA /* DirectionDestinationRequest.swift */; };
+		EB2A4A2D246BD05300BF4FAA /* DirectionOriginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2A4A2C246BD05300BF4FAA /* DirectionOriginRequest.swift */; };
+		EB2A4A2F246BD3C400BF4FAA /* GoogleDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2A4A2E246BD3C400BF4FAA /* GoogleDirection.swift */; };
+		EB4224C1246ACAAE0009439B /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4224C0246ACAAE0009439B /* Agency.swift */; };
+		EB548EB4246ADCFC005B4267 /* Coordination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EB3246ADCFC005B4267 /* Coordination.swift */; };
+		EB548EB6246ADDE5005B4267 /* Bound.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EB5246ADDE5005B4267 /* Bound.swift */; };
+		EB548EB8246ADEBF005B4267 /* Fare.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EB7246ADEBF005B4267 /* Fare.swift */; };
+		EB548EBA246ADFAC005B4267 /* GeocodeWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EB9246ADFAC005B4267 /* GeocodeWaypoint.swift */; };
+		EB548EBC246AE0FE005B4267 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EBB246AE0FE005B4267 /* Info.swift */; };
+		EB548EBE246AE1EE005B4267 /* Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EBD246AE1EE005B4267 /* Waypoint.swift */; };
+		EB548EC0246AE2F9005B4267 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EBF246AE2F9005B4267 /* Vehicle.swift */; };
+		EB548EC2246AE3CD005B4267 /* TimeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EC1246AE3CD005B4267 /* TimeInfo.swift */; };
+		EB548EC4246AE4F0005B4267 /* StopPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EC3246AE4F0005B4267 /* StopPoint.swift */; };
+		EB548EC6246AE5A8005B4267 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EC5246AE5A8005B4267 /* Line.swift */; };
+		EB548EC9246B8679005B4267 /* TransitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EC8246B8679005B4267 /* TransitDetail.swift */; };
+		EB548ECB246B8D3B005B4267 /* RoutePolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ECA246B8D3B005B4267 /* RoutePolyline.swift */; };
+		EB548ECD246B8DB3005B4267 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ECC246B8DB3005B4267 /* Step.swift */; };
+		EB548ECF246B8FB9005B4267 /* Leg.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ECE246B8FB9005B4267 /* Leg.swift */; };
+		EB548ED1246B96F4005B4267 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ED0246B96F4005B4267 /* Route.swift */; };
+		EB548ED3246B9930005B4267 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ED2246B9930005B4267 /* Direction.swift */; };
+		EB548ED5246B9B56005B4267 /* DirectionCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ED4246B9B56005B4267 /* DirectionCallback.swift */; };
+		EB548ED8246B9D66005B4267 /* DirectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ED7246B9D66005B4267 /* DirectionService.swift */; };
+		EB548EDA246B9E40005B4267 /* DirectionConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548ED9246B9E40005B4267 /* DirectionConnection.swift */; };
+		EB548EDD246BAEA2005B4267 /* DirectionRequestParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB548EDC246BAEA2005B4267 /* DirectionRequestParam.swift */; };
 		EB724E2D246A4B550093919A /* GoogleMapDirectionLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB724E23246A4B550093919A /* GoogleMapDirectionLib.framework */; };
 		EB724E32246A4B550093919A /* GoogleMapDirectionLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E31246A4B550093919A /* GoogleMapDirectionLibTests.swift */; };
 		EB724E34246A4B550093919A /* GoogleMapDirectionLib.h in Headers */ = {isa = PBXBuildFile; fileRef = EB724E26246A4B550093919A /* GoogleMapDirectionLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB724E3F246A4BD90093919A /* AvoidType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E3E246A4BD90093919A /* AvoidType.swift */; };
+		EB724E51246A4FEF0093919A /* DirectionUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E50246A4FEF0093919A /* DirectionUrl.swift */; };
+		EB724E53246A54C20093919A /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E52246A54C20093919A /* Language.swift */; };
+		EB724E55246A55500093919A /* Maneuver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E54246A55500093919A /* Maneuver.swift */; };
+		EB724E57246A55AE0093919A /* RequestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E56246A55AE0093919A /* RequestResult.swift */; };
+		EB724E59246A56770093919A /* TransitMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E58246A56770093919A /* TransitMode.swift */; };
+		EB724E5B246A56EA0093919A /* TransportMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E5A246A56EA0093919A /* TransportMode.swift */; };
+		EB724E5D246A578C0093919A /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E5C246A578C0093919A /* Unit.swift */; };
+		EB724E5F246A58870093919A /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB724E5E246A58870093919A /* VehicleType.swift */; };
+		EB9FA298246C03E6008C23CA /* DirectionConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9FA297246C03E6008C23CA /* DirectionConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +59,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F90E424CA78B39932E64104 /* Pods-GoogleMapDirectionLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapDirectionLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapDirectionLib/Pods-GoogleMapDirectionLib.release.xcconfig"; sourceTree = "<group>"; };
+		7EBB7B02D522EDE87931B7BD /* Pods-GoogleMapDirectionLibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapDirectionLibTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapDirectionLibTests/Pods-GoogleMapDirectionLibTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91C7846A1E231E03CA6A2A52 /* Pods-GoogleMapDirectionLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapDirectionLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapDirectionLib/Pods-GoogleMapDirectionLib.debug.xcconfig"; sourceTree = "<group>"; };
+		C073DCBFD52EFF32C29F6B4E /* Pods_GoogleMapDirectionLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapDirectionLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD46148CF8F3502C3AFD9704 /* Pods_GoogleMapDirectionLibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapDirectionLibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2A4A26246BB60100BF4FAA /* DirectionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionRequest.swift; sourceTree = "<group>"; };
+		EB2A4A2A246BC3ED00BF4FAA /* DirectionDestinationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionDestinationRequest.swift; sourceTree = "<group>"; };
+		EB2A4A2C246BD05300BF4FAA /* DirectionOriginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionOriginRequest.swift; sourceTree = "<group>"; };
+		EB2A4A2E246BD3C400BF4FAA /* GoogleDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDirection.swift; sourceTree = "<group>"; };
+		EB4224C0246ACAAE0009439B /* Agency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agency.swift; sourceTree = "<group>"; };
+		EB548EB3246ADCFC005B4267 /* Coordination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordination.swift; sourceTree = "<group>"; };
+		EB548EB5246ADDE5005B4267 /* Bound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bound.swift; sourceTree = "<group>"; };
+		EB548EB7246ADEBF005B4267 /* Fare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fare.swift; sourceTree = "<group>"; };
+		EB548EB9246ADFAC005B4267 /* GeocodeWaypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodeWaypoint.swift; sourceTree = "<group>"; };
+		EB548EBB246AE0FE005B4267 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		EB548EBD246AE1EE005B4267 /* Waypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waypoint.swift; sourceTree = "<group>"; };
+		EB548EBF246AE2F9005B4267 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		EB548EC1246AE3CD005B4267 /* TimeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInfo.swift; sourceTree = "<group>"; };
+		EB548EC3246AE4F0005B4267 /* StopPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopPoint.swift; sourceTree = "<group>"; };
+		EB548EC5246AE5A8005B4267 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		EB548EC8246B8679005B4267 /* TransitDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitDetail.swift; sourceTree = "<group>"; };
+		EB548ECA246B8D3B005B4267 /* RoutePolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePolyline.swift; sourceTree = "<group>"; };
+		EB548ECC246B8DB3005B4267 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		EB548ECE246B8FB9005B4267 /* Leg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leg.swift; sourceTree = "<group>"; };
+		EB548ED0246B96F4005B4267 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		EB548ED2246B9930005B4267 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		EB548ED4246B9B56005B4267 /* DirectionCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionCallback.swift; sourceTree = "<group>"; };
+		EB548ED7246B9D66005B4267 /* DirectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionService.swift; sourceTree = "<group>"; };
+		EB548ED9246B9E40005B4267 /* DirectionConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionConnection.swift; sourceTree = "<group>"; };
+		EB548EDC246BAEA2005B4267 /* DirectionRequestParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionRequestParam.swift; sourceTree = "<group>"; };
 		EB724E23246A4B550093919A /* GoogleMapDirectionLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMapDirectionLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB724E26246A4B550093919A /* GoogleMapDirectionLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMapDirectionLib.h; sourceTree = "<group>"; };
 		EB724E27246A4B550093919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB724E2C246A4B550093919A /* GoogleMapDirectionLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapDirectionLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB724E31246A4B550093919A /* GoogleMapDirectionLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapDirectionLibTests.swift; sourceTree = "<group>"; };
 		EB724E33246A4B550093919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB724E3E246A4BD90093919A /* AvoidType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidType.swift; sourceTree = "<group>"; };
+		EB724E50246A4FEF0093919A /* DirectionUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionUrl.swift; sourceTree = "<group>"; };
+		EB724E52246A54C20093919A /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		EB724E54246A55500093919A /* Maneuver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maneuver.swift; sourceTree = "<group>"; };
+		EB724E56246A55AE0093919A /* RequestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResult.swift; sourceTree = "<group>"; };
+		EB724E58246A56770093919A /* TransitMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitMode.swift; sourceTree = "<group>"; };
+		EB724E5A246A56EA0093919A /* TransportMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportMode.swift; sourceTree = "<group>"; };
+		EB724E5C246A578C0093919A /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		EB724E5E246A58870093919A /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
+		EB9FA297246C03E6008C23CA /* DirectionConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionConverter.swift; sourceTree = "<group>"; };
+		F2D0281675698958F7E00318 /* Pods-GoogleMapDirectionLibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapDirectionLibTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapDirectionLibTests/Pods-GoogleMapDirectionLibTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,17 +121,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB724E2D246A4B550093919A /* GoogleMapDirectionLib.framework in Frameworks */,
+				2F8DB473F2AA7B2F48A286DC /* Pods_GoogleMapDirectionLibTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3657F2324BE7EA6EFA4C815F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91C7846A1E231E03CA6A2A52 /* Pods-GoogleMapDirectionLib.debug.xcconfig */,
+				4F90E424CA78B39932E64104 /* Pods-GoogleMapDirectionLib.release.xcconfig */,
+				7EBB7B02D522EDE87931B7BD /* Pods-GoogleMapDirectionLibTests.debug.xcconfig */,
+				F2D0281675698958F7E00318 /* Pods-GoogleMapDirectionLibTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3C29C9808F793F65E602398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C073DCBFD52EFF32C29F6B4E /* Pods_GoogleMapDirectionLib.framework */,
+				CD46148CF8F3502C3AFD9704 /* Pods_GoogleMapDirectionLibTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB4224BF246ACA9E0009439B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4224C0246ACAAE0009439B /* Agency.swift */,
+				EB548EB5246ADDE5005B4267 /* Bound.swift */,
+				EB548EB3246ADCFC005B4267 /* Coordination.swift */,
+				EB548ED2246B9930005B4267 /* Direction.swift */,
+				EB548EB7246ADEBF005B4267 /* Fare.swift */,
+				EB548EB9246ADFAC005B4267 /* GeocodeWaypoint.swift */,
+				EB548EBB246AE0FE005B4267 /* Info.swift */,
+				EB548ECE246B8FB9005B4267 /* Leg.swift */,
+				EB548EC5246AE5A8005B4267 /* Line.swift */,
+				EB548ED0246B96F4005B4267 /* Route.swift */,
+				EB548ECA246B8D3B005B4267 /* RoutePolyline.swift */,
+				EB548ECC246B8DB3005B4267 /* Step.swift */,
+				EB548EC3246AE4F0005B4267 /* StopPoint.swift */,
+				EB548EC1246AE3CD005B4267 /* TimeInfo.swift */,
+				EB548EC8246B8679005B4267 /* TransitDetail.swift */,
+				EB548EBF246AE2F9005B4267 /* Vehicle.swift */,
+				EB548EBD246AE1EE005B4267 /* Waypoint.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB548ED6246B9D47005B4267 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EB548ED7246B9D66005B4267 /* DirectionService.swift */,
+				EB548ED9246B9E40005B4267 /* DirectionConnection.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EB548EDB246BAE23005B4267 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EB548EDC246BAEA2005B4267 /* DirectionRequestParam.swift */,
+				EB2A4A26246BB60100BF4FAA /* DirectionRequest.swift */,
+				EB2A4A2A246BC3ED00BF4FAA /* DirectionDestinationRequest.swift */,
+				EB2A4A2C246BD05300BF4FAA /* DirectionOriginRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		EB724E19246A4B550093919A = {
 			isa = PBXGroup;
 			children = (
+				E3C29C9808F793F65E602398 /* Frameworks */,
 				EB724E25246A4B550093919A /* GoogleMapDirectionLib */,
 				EB724E30246A4B550093919A /* GoogleMapDirectionLibTests */,
+				3657F2324BE7EA6EFA4C815F /* Pods */,
 				EB724E24246A4B550093919A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,8 +215,15 @@
 		EB724E25246A4B550093919A /* GoogleMapDirectionLib */ = {
 			isa = PBXGroup;
 			children = (
+				EB9FA296246C03D2008C23CA /* Util */,
+				EB548EDB246BAE23005B4267 /* Request */,
+				EB548ED6246B9D47005B4267 /* Network */,
+				EB724E3D246A4BAF0093919A /* Constant */,
+				EB4224BF246ACA9E0009439B /* Model */,
 				EB724E26246A4B550093919A /* GoogleMapDirectionLib.h */,
 				EB724E27246A4B550093919A /* Info.plist */,
+				EB548ED4246B9B56005B4267 /* DirectionCallback.swift */,
+				EB2A4A2E246BD3C400BF4FAA /* GoogleDirection.swift */,
 			);
 			path = GoogleMapDirectionLib;
 			sourceTree = "<group>";
@@ -84,6 +235,30 @@
 				EB724E33246A4B550093919A /* Info.plist */,
 			);
 			path = GoogleMapDirectionLibTests;
+			sourceTree = "<group>";
+		};
+		EB724E3D246A4BAF0093919A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				EB724E3E246A4BD90093919A /* AvoidType.swift */,
+				EB724E50246A4FEF0093919A /* DirectionUrl.swift */,
+				EB724E52246A54C20093919A /* Language.swift */,
+				EB724E54246A55500093919A /* Maneuver.swift */,
+				EB724E56246A55AE0093919A /* RequestResult.swift */,
+				EB724E58246A56770093919A /* TransitMode.swift */,
+				EB724E5A246A56EA0093919A /* TransportMode.swift */,
+				EB724E5C246A578C0093919A /* Unit.swift */,
+				EB724E5E246A58870093919A /* VehicleType.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		EB9FA296246C03D2008C23CA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EB9FA297246C03E6008C23CA /* DirectionConverter.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB724E37246A4B550093919A /* Build configuration list for PBXNativeTarget "GoogleMapDirectionLib" */;
 			buildPhases = (
+				5CFF168E20C81E84B200C5B7 /* [CP] Check Pods Manifest.lock */,
 				EB724E1E246A4B550093919A /* Headers */,
 				EB724E1F246A4B550093919A /* Sources */,
 				EB724E20246A4B550093919A /* Frameworks */,
@@ -122,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB724E3A246A4B550093919A /* Build configuration list for PBXNativeTarget "GoogleMapDirectionLibTests" */;
 			buildPhases = (
+				DEE77EDF31613A6E0079594B /* [CP] Check Pods Manifest.lock */,
 				EB724E28246A4B550093919A /* Sources */,
 				EB724E29246A4B550093919A /* Frameworks */,
 				EB724E2A246A4B550093919A /* Resources */,
+				7CA7F96F62A04FDBE43AF3BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +326,7 @@
 				TargetAttributes = {
 					EB724E22246A4B550093919A = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					EB724E2B246A4B550093919A = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -190,11 +369,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CFF168E20C81E84B200C5B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapDirectionLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA7F96F62A04FDBE43AF3BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapDirectionLibTests/Pods-GoogleMapDirectionLibTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapDirectionLibTests/Pods-GoogleMapDirectionLibTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEE77EDF31613A6E0079594B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapDirectionLibTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB724E1F246A4B550093919A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB548ED5246B9B56005B4267 /* DirectionCallback.swift in Sources */,
+				EB724E57246A55AE0093919A /* RequestResult.swift in Sources */,
+				EB724E55246A55500093919A /* Maneuver.swift in Sources */,
+				EB548EB6246ADDE5005B4267 /* Bound.swift in Sources */,
+				EB548EBC246AE0FE005B4267 /* Info.swift in Sources */,
+				EB548EBE246AE1EE005B4267 /* Waypoint.swift in Sources */,
+				EB548EBA246ADFAC005B4267 /* GeocodeWaypoint.swift in Sources */,
+				EB548EC4246AE4F0005B4267 /* StopPoint.swift in Sources */,
+				EB548EDA246B9E40005B4267 /* DirectionConnection.swift in Sources */,
+				EB548ECD246B8DB3005B4267 /* Step.swift in Sources */,
+				EB724E5F246A58870093919A /* VehicleType.swift in Sources */,
+				EB548EC9246B8679005B4267 /* TransitDetail.swift in Sources */,
+				EB548EC0246AE2F9005B4267 /* Vehicle.swift in Sources */,
+				EB548EC6246AE5A8005B4267 /* Line.swift in Sources */,
+				EB548ECF246B8FB9005B4267 /* Leg.swift in Sources */,
+				EB548EDD246BAEA2005B4267 /* DirectionRequestParam.swift in Sources */,
+				EB548EB8246ADEBF005B4267 /* Fare.swift in Sources */,
+				EB724E59246A56770093919A /* TransitMode.swift in Sources */,
+				EB724E5B246A56EA0093919A /* TransportMode.swift in Sources */,
+				EB724E53246A54C20093919A /* Language.swift in Sources */,
+				EB548EB4246ADCFC005B4267 /* Coordination.swift in Sources */,
+				EB548ED8246B9D66005B4267 /* DirectionService.swift in Sources */,
+				EB2A4A2F246BD3C400BF4FAA /* GoogleDirection.swift in Sources */,
+				EB724E5D246A578C0093919A /* Unit.swift in Sources */,
+				EB548EC2246AE3CD005B4267 /* TimeInfo.swift in Sources */,
+				EB2A4A2B246BC3ED00BF4FAA /* DirectionDestinationRequest.swift in Sources */,
+				EB724E3F246A4BD90093919A /* AvoidType.swift in Sources */,
+				EB548ECB246B8D3B005B4267 /* RoutePolyline.swift in Sources */,
+				EB4224C1246ACAAE0009439B /* Agency.swift in Sources */,
+				EB9FA298246C03E6008C23CA /* DirectionConverter.swift in Sources */,
+				EB2A4A2D246BD05300BF4FAA /* DirectionOriginRequest.swift in Sources */,
+				EB548ED1246B96F4005B4267 /* Route.swift in Sources */,
+				EB2A4A27246BB60100BF4FAA /* DirectionRequest.swift in Sources */,
+				EB724E51246A4FEF0093919A /* DirectionUrl.swift in Sources */,
+				EB548ED3246B9930005B4267 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +630,9 @@
 		};
 		EB724E38246A4B550093919A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C7846A1E231E03CA6A2A52 /* Pods-GoogleMapDirectionLib.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QWZQFWGZMG;
@@ -353,9 +646,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.googlemapdirection.GoogleMapDirectionLib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.googlemapdirectionlib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +657,9 @@
 		};
 		EB724E39246A4B550093919A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F90E424CA78B39932E64104 /* Pods-GoogleMapDirectionLib.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QWZQFWGZMG;
@@ -377,7 +673,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.googlemapdirection.GoogleMapDirectionLib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.googlemapdirectionlib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -387,7 +683,9 @@
 		};
 		EB724E3B246A4B550093919A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBB7B02D522EDE87931B7BD /* Pods-GoogleMapDirectionLibTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWZQFWGZMG;
 				INFOPLIST_FILE = GoogleMapDirectionLibTests/Info.plist;
@@ -405,7 +703,9 @@
 		};
 		EB724E3C246A4B550093919A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D0281675698958F7E00318 /* Pods-GoogleMapDirectionLibTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWZQFWGZMG;
 				INFOPLIST_FILE = GoogleMapDirectionLibTests/Info.plist;
