@@ -78,8 +78,10 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
+  
+  s.source       = { :git => "https://github.com/ngominhtrint/GoogleMapDirectionLib.git" }
 
-  s.source       = { :git => "https://github.com/ngominhtrint/GoogleMapDirectionLib.git", :tag => "#{s.version}" }
+  #, :tag => "#{s.version}"
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
