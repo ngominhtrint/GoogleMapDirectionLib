@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "Wrapped the direction api of Google Map for easier to use."
+  s.description  = "GoogleMapDirectionLib is a wrapped Direction Api of Google Map for easier to implement."
 
   s.homepage     = "https://github.com/ngominhtrint/GoogleMapDirectionLib"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
