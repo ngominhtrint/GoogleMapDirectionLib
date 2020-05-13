@@ -219,7 +219,7 @@
 				EB4224BF246ACA9E0009439B /* Model */,
 				EB548ED6246B9D47005B4267 /* Network */,
 				EB548EDB246BAE23005B4267 /* Request */,
-				EB9FA296246C03D2008C23CA /* Util */,
+				EB9FA296246C03D2008C23CA /* Utils */,
 				EB548ED4246B9B56005B4267 /* DirectionCallback.swift */,
 				EB2A4A2E246BD3C400BF4FAA /* GoogleDirection.swift */,
 				EB724E26246A4B550093919A /* GoogleMapDirectionLib.h */,
@@ -253,12 +253,12 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
-		EB9FA296246C03D2008C23CA /* Util */ = {
+		EB9FA296246C03D2008C23CA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				EB9FA297246C03E6008C23CA /* DirectionConverter.swift */,
 			);
-			path = Util;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
