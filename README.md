@@ -8,7 +8,7 @@ By inspiration on this Android repo [GoogleDirectionLibrary](https://github.com/
 ### Install
 
 ```
-pod 'GoogleMapDirectionLib', :git => 'https://github.com/ngominhtrint/GoogleMapDirectionLib.git'
+pod 'GoogleMapDirectionLib'
 ```
 
 ### Use
